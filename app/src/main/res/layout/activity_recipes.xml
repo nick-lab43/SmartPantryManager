@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Suggested Recipes" android:textSize="25sp" android:textStyle="bold"
+        android:textColor="#204C38"/>
+    <TextView android:id="@+id/txtRecipeIntro" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Only recipes you can make with your current quantities appear here."
+        android:paddingTop="6dp" android:paddingBottom="8dp"/>
+    <TextView android:id="@+id/txtNoRecipes" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="No recipes match your pantry yet. Add more ingredients or quantities."
+        android:gravity="center" android:padding="16dp" android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerRecipes"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:id="@+id/btnBackPantry" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Back to pantry"/>
+</LinearLayout>
