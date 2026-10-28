@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:id="@+id/txtDetailName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="25sp" android:textStyle="bold"
+            android:textColor="#204C38"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Required ingredients" android:textSize="18sp" android:textStyle="bold"
+            android:paddingTop="18dp"/>
+        <TextView android:id="@+id/txtDetailIngredients" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="16sp" android:paddingTop="6dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Preparation method" android:textSize="18sp" android:textStyle="bold"
+            android:paddingTop="18dp"/>
+        <TextView android:id="@+id/txtDetailSteps" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="16sp" android:paddingTop="6dp"/>
+        <Button android:id="@+id/btnDetailBack" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Back to recipes"
+            android:layout_marginTop="18dp"/>
+    </LinearLayout>
+</ScrollView>
