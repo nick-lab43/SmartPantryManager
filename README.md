@@ -43,7 +43,3 @@ Pantry and recipe data are stored locally using SQLite. The app does not require
 - `app/src/main/res/layout/` — screen and list-item layouts.
 - `app/src/main/res/values/` — app theme resources.
 - `app/src/main/AndroidManifest.xml` — app activities and launcher configuration.
-
-## Validation status
-
-This source package has been prepared for local Android Studio verification. A successful build and device/emulator test must be confirmed in the target environment before claiming those results in the submission report.
