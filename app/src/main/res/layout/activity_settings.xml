@@ -1,0 +1,17 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Settings" android:textSize="25sp" android:textStyle="bold"
+            android:textColor="#204C38"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Preferences are stored on this device." android:paddingTop="8dp"/>
+        <CheckBox android:id="@+id/checkExpiryAlerts" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Show expiring-soon reminders preference"/>
+        <TextView android:id="@+id/txtSettingsSummary" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingTop="12dp" android:textSize="16sp"/>
+        <Button android:id="@+id/btnSettingsBack" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Back to pantry"/>
+    </LinearLayout>
+</ScrollView>
